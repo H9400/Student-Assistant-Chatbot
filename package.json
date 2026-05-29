@@ -1,0 +1,30 @@
+{
+  "name": "auto-scraper",
+  "version": "1.0.0",
+  "description": "Automated web scraping system for educational content",
+  "main": "src/services/autoScraper.ts",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node src/services/autoScraper.ts",
+    "dashboard": "ts-node src/dashboard/server.ts",
+    "dev": "concurrently \"npm run start\" \"npm run dashboard\""
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.35.2",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "compromise": "^14.10.0",
+    "compromise-dates": "^3.4.2",
+    "compromise-sentences": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.35",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.19",
+    "@types/socket.io": "^3.0.2",
+    "concurrently": "^8.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
