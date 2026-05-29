@@ -190,13 +190,4 @@ The build artifacts will be stored in the `dist/` directory.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
 
-- React Team
-- Tailwind CSS Team
-- Framer Motion
-- i18next
-
-## Support
-
-For support, email support@example.com or create an issue in the repository.
